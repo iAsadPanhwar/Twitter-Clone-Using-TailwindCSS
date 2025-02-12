@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "��#\u0000 \u0000T\u0000w\u0000i\u0000t\u0000t\u0000e\u0000r\u0000-\u0000C\u0000l\u0000o\u0000n\u0000e\u0000-\u0000U\u0000s\u0000i\u0000n\u0000g\u0000-\u0000T\u0000a\u0000i\u0000l\u0000w\u0000i\u0000n\u0000d\u0000C\u0000S\u0000S\u0000\r\u0000 \u0000",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "dev": "vite"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/iAsadPanhwar/Twitter-Clone-Using-TailwindCSS#readme",
   "dependencies": {
     "@tailwindcss/cli": "^4.0.6",
-    "tailwindcss": "^4.0.6"
+    "tailwindcss": "^4.0.6",
+    "vite": "^6.1.0"
   }
 }
